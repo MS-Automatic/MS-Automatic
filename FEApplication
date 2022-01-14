@@ -1,0 +1,28 @@
+<html>
+    <head>
+            <script>
+
+                function add (a,b)
+                {
+                    var c;
+                    c = a + b;
+                    return c;
+                }
+
+                function myfunction()
+                {
+                    var x = 2;
+                    var y = 7;
+
+                    var z = add(x,y);
+
+                    document.querySelector("#result").value = z;
+                }
+            </script>
+    </head>
+    <body>
+        <button id="myButton" onclick="myfunction();"> Click Here </button>
+        <input id="result"/>
+
+    </body>
+</html>
